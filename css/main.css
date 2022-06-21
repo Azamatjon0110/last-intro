@@ -1,0 +1,299 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+
+/* inter-regular - latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+  url('../fonts/inter-v11-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url('../fonts/inter-v11-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* inter-500 - latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+  url('../fonts/inter-v11-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url('../fonts/inter-v11-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* inter-600 - latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  src: local(''),
+  url('../fonts/inter-v11-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url('../fonts/inter-v11-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* inter-700 - latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+  url('../fonts/inter-v11-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url('../fonts/inter-v11-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", "Arial", sans-serif;
+  background-color: #F1F4FF;
+}
+
+.intro{
+  color: #FFFFFF;
+}
+
+.container{
+  width: 1240px;
+  margin: 0 auto;
+  padding: 0;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.programming{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  padding: 80px 0;
+}
+
+.info-top{
+  width: 570px;
+  margin-right: 12px;
+}
+
+.info-main{
+  display: block;
+  margin: 0;
+  padding-top: 60px;
+  padding-right: 121px;
+  padding-left: 60px;
+  padding-bottom: 203px;
+  border-radius: 20px 20px 0 0;
+  background-image: url("../images/bg-img.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fr-bk{
+  border: 2px solid #FFFFFF;
+  border-radius: 20px;
+  padding: 5px 20px;
+}
+
+.info-top-title{
+  margin: 0;
+  padding: 0;
+  margin-top: 65px;
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+}
+
+.info-top-text{
+  width: 347px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.info-top-link{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  padding: 29px 0px 28px 0px;
+  background-color: #4DC490;
+  color:#FFFFFF;
+  border-radius: 0px 0px 20px 20px;
+  font-size: 19px;
+  line-height: 23px;
+  text-decoration: none;
+}
+
+.user-info{
+  width: 570px;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  color: #000000;
+  padding: 60px 63px 44px 65px;
+}
+
+.user-title{
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 42px;
+  margin-bottom: 79px;
+}
+
+.user-input{
+  width: 442px;
+  margin-top: 15px;
+  padding-bottom: 11px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #000000;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.user-input::-webkit-input-placeholder{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #555555;
+}
+
+.user-input::-moz-placeholder{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #555555;
+}
+
+.user-input:-ms-input-placeholder{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #555555;
+}
+
+.user-input::-ms-input-placeholder{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #555555;
+}
+
+.user-input::placeholder{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #555555;
+}
+
+
+input:not(:-moz-placeholder-shown):not(:focus):invalid {
+  -moz-transition: 0.2s ease;
+  transition: 0.2s ease;
+  border-bottom: 1px solid #FF7979;
+}
+
+
+input:not(:-ms-input-placeholder):not(:focus):invalid {
+  -ms-transition: 0.2s ease;
+  transition: 0.2s ease;
+  border-bottom: 1px solid #FF7979;
+}
+
+
+input:not(:placeholder-shown):not(:focus):invalid {
+  -webkit-transition: 0.2s ease;
+  -o-transition: 0.2s ease;
+  transition: 0.2s ease;
+  border-bottom: 1px solid #FF7979;
+}
+
+input:not(:-moz-placeholder-shown):not(:focus):invalid+span{
+  -moz-transition: 0.2s ease;
+  transition: 0.2s ease;
+  opacity: 1;
+}
+
+input:not(:-ms-input-placeholder):not(:focus):invalid+span{
+  -ms-transition: 0.2s ease;
+  transition: 0.2s ease;
+  opacity: 1;
+}
+
+input:not(:placeholder-shown):not(:focus):invalid+span{
+  -webkit-transition: 0.2s ease;
+  -o-transition: 0.2s ease;
+  transition: 0.2s ease;
+  opacity: 1;
+}
+
+.label-span{
+  display: block;
+  font-size: 11px;
+  line-height: 16px;
+  color: #FF7979;
+  opacity: 0;
+  text-align: right;
+}
+
+.anna{
+  margin-top: 0;
+}
+
+.psw{
+  margin-bottom: 48px;
+}
+
+.user-info-button{
+  width: 450px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.button{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 20px 146px;
+  background-color: #655AF2;
+  color:#FFFFFF;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.button-text{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 8px;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  color: #555555
+}
+
+.text-link{
+  text-decoration: none;
+  color:#f00;
+}
